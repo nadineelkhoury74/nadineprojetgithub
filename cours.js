@@ -9,6 +9,6 @@ ajaxGet("https://oc-jswebsrv.herokuapp.com/api/articles", function (reponse) {
         var contenuElt = document.createElement("p");
         contenuElt.textContent = article.contenu;
         articlesElt.appendChild(titreElt);
-        articlesElt.appendChild(contenuElt);
+     
     });
 });
